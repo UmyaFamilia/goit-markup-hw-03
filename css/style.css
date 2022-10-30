@@ -112,6 +112,8 @@ body {
 
 /* end header------------------------------*/
 /*main----------------------------------*/
+
+
 .title {
   background: var(--background-color);
 }
@@ -133,7 +135,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -146,13 +147,18 @@ body {
   width: 696px;
   margin: 0 auto;
   padding-top: 198px;
-  padding-bottom: 26px;
 }
 .conteiner-title-button {
   display: inline-block;
-  margin-left: 477px;
-  margin-bottom: 200px;
+  padding-top: 31px;
+  padding-bottom: 201px;
+  display: flex;
+  justify-content:center;
 }
+
+
+
+
 .conteinre-second-list {
   padding-top: 88px;
   padding-bottom: 94px;
